@@ -6,8 +6,8 @@ from ohce import Ohce
 class OhceTest(unittest.TestCase):
     # Test bien dit avec langue
     @parameterized.parameterized.expand([
-        ("francais","radar", "Bien dit"),
-        ("anglais","kayak", "Well said")
+        ("francais","sos", "Bien dit"),
+        ("anglais","laval", "Well said")
         ])
     def test_palindrome_langue(self,langue,mot,attendu):
         # QUAND on saisit un palindrome ET que l'on saisit une langue
