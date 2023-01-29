@@ -10,7 +10,7 @@
 <br><br>
 > Exemple pour lancer les tests de l'étape 1 :
 
-![Tests étape 1](Tests1.png "Tests étape 1")
+![Tests étape 1](Assets/Tests1.png "Tests étape 1")
 
 ---
 
@@ -26,7 +26,7 @@ ETANT DONNE un utilisateur parlant une langue
 <br><br>
 > Exemple pour lancer les tests de l'étape 2 :
 
-![Tests étape 2](Tests2.png "Tests étape 2")
+![Tests étape 2](Assets/Tests2.png "Tests étape 2")
 
 ---
 
@@ -39,7 +39,7 @@ ETANT DONNE un utilisateur parlant une langue ET que la période de la journée 
 <br><br>
 > Exemple pour lancer les tests de l'étape 3 :
 
-![Tests étape 3](Tests3.png "Tests étape 3")
+![Tests étape 3](Assets/Tests3.png "Tests étape 3")
 
 ---
 
@@ -51,5 +51,5 @@ TESTS DE RECETTE
 <br><br>
 > Exemple pour lancer les tests de l'étape 4 :
 
-![Tests étape 4](Tests4.png "Tests étape 4")
+![Tests étape 4](Assets/Tests4.png "Tests étape 4")
 
