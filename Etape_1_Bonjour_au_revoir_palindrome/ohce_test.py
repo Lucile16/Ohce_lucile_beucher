@@ -24,7 +24,7 @@ class OhceTest(unittest.TestCase):
         retour_palindrome = ohce.miroir(mot)
         self.assertIn(mot, retour_palindrome)
 
-        # ET 'Bien dit' est renvoyé ensuite
+        # ET "Bien dit" est renvoyé ensuite
         self.assertIn("Bien dit",retour_palindrome)
 
     @parameterized.parameterized.expand(["toto", "test"])
@@ -33,7 +33,7 @@ class OhceTest(unittest.TestCase):
         ohce = Ohce()
         retour = ohce.miroir(mot)
 
-        # ALORS 'Bonjour' est envoyé avant le mot et 'Au revoir' est envoyé après.
+        # ALORS "Bonjour" est envoyé avant le mot et "Au revoir" est envoyé après.
         self.assertIn("Bonjour ", retour)
         self.assertIn(" Au revoir", retour)
 

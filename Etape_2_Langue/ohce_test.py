@@ -17,7 +17,7 @@ class OhceTest(unittest.TestCase):
         retour_palindrome = ohce.miroir(mot,langue)
         self.assertIn(mot, retour_palindrome)
 
-        # ET 'Bien dit' est renvoyé ensuite dans la langue correcte
+        # ET "Bien dit" est renvoyé ensuite dans la langue correcte
         self.assertIn(attendu,retour_palindrome)
     
     @parameterized.parameterized.expand([
