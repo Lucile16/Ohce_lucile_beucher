@@ -3,7 +3,7 @@ import parameterized as parameterized
 from ohce import Ohce
 
 class OhceTest(unittest.TestCase):
-    # Test bonjour (langue et période de la journée)
+    # Test "salutation" (langue et période de la journée)
     @parameterized.parameterized.expand([
         ("francais","matin","test", "Bonjour"),
         ("anglais","matin","toto", "Good morning"),
@@ -17,10 +17,10 @@ class OhceTest(unittest.TestCase):
         # QUAND on saisit une chaine de caractère
         resultat = ohce.miroir(mot,langue,periode_journee)
 
-        # ALORS "bonjour" est retourné avant tout dans la langue choisie
+        # ALORS "salutation" est retournée avant tout dans la langue choisie
         self.assertIn(attendu,resultat)
 
-    # Test au revoir (langue et période de la journée)
+    # Test "au revoir" (langue et période de la journée)
     @parameterized.parameterized.expand([
         ("francais","matin","test", "Au revoir"),
         ("anglais","matin","toto", "Good bye"),

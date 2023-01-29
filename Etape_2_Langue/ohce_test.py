@@ -28,7 +28,7 @@ class OhceTest(unittest.TestCase):
         #QUAND on saisit une chaîne ET une langue
         ohce = Ohce()
 
-        #ALORS 'Bonjour' est renvoyé dans la langue choisis
+        #ALORS "Bonjour" est renvoyé dans la langue choisie
         retour_palindrome = ohce.miroir(mot,langue)
         self.assertIn(attendu,retour_palindrome)
 
@@ -47,7 +47,7 @@ class OhceTest(unittest.TestCase):
         retour_palindrome = ohce.miroir(mot,langue)
         self.assertIn(mot[::-1], retour_palindrome)
 
-        # ET 'au revoir' est envoyé ensuite dans la langue séléctioné
+        # ET "au revoir" est envoyé ensuite dans la langue choisie
         self.assertIn(attendu,retour_palindrome)
 
 if __name__ == '__main__':
